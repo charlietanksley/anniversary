@@ -7,6 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
@@ -26,6 +27,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Helmet>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet>
       <div
         style={{
           margin: `0 auto`,
