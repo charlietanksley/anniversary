@@ -9,16 +9,18 @@ import SiteNav from "../components/site-nav"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <div className="two-column">
-      <div className="left-2-column">
-        <Image id="wedding" />
+    <div className="main">
+      <div className="two-column">
+        <div className="left-2-column">
+          <Image id="wedding" />
+        </div>
+        <div className="right-2-column">
+          <Image id="june1970" />
+        </div>
       </div>
-      <div className="right-2-column">
-        <Image id="june1970" />
+      <div>
+        <Image id="reunion70" />
       </div>
-    </div>
-    <div>
-      <Image id="reunion70" />
     </div>
   </Layout>
 )

@@ -634,7 +634,7 @@ body {
     color: var(--charcol);
 }
 
-.home {
+.main {
     padding-top: 1em;
 }
 
@@ -665,6 +665,10 @@ body {
     list-style: none;
     padding-bottom: 0;
     margin-bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .site-nav li {
     display: inline-block;
