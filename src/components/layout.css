@@ -635,7 +635,7 @@ body {
 }
 
 img {
-    border: 1px solid var(--silk);
+    border: 1px solid var(--pale-gold);
 }
 .main {
     padding-top: 1em;
@@ -678,7 +678,7 @@ img {
     padding: 1em;
     margin-bottom: 0;
     font-size: 1.5em;
-    border: 1px solid var(--silk);
+    border: 1px solid var(--pale-gold);
 }
 
 // For screen readers
@@ -693,9 +693,10 @@ img {
     margin-left: 0;
     padding-left: 0;
     padding-bottom: 0;
+    background-color: var(--silk);
 }
 .site-nav a:hover {
-    background: var(--silk);
+    background: var(--pale-gold);
 }
 
 .message-display {
