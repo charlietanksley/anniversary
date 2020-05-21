@@ -17,9 +17,10 @@ export default () => (
     `}
     render={data =>
       data.allContactCsv.edges.map((row, i) => (
-        <p key={i}>
-          {row.node.message} - {row.node.name}
-        </p>
+        <div key={i} className="message-display">
+          <p className="message-body"> {row.node.message}</p>
+          <p className="message-sender"> {row.node.name}</p>
+        </div>
       ))
     }
   />

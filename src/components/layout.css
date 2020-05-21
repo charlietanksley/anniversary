@@ -630,17 +630,20 @@ pre tt:after {
 }
 
 body {
-    background: var(--pale-gold);
+    background: var(--paper);
     color: var(--charcol);
 }
 
+img {
+    border: 1px solid var(--silk);
+}
 .main {
     padding-top: 1em;
 }
 
 .header {
     font-family: 'Great Vibes', cursive;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
 }
 
@@ -693,4 +696,46 @@ body {
 }
 .site-nav a:hover {
     background: var(--silk);
+}
+
+.message-display {
+    /* background-color: var(--paper); */
+    border: 1px solid var(--charcol);
+    margin-bottom: 1.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.message-body {
+}
+
+.message-sender {
+}
+
+.guestbook-form {
+
+}
+
+.guestbook-form .label {
+    font-size: 2em;
+}
+
+.guestbook-form .name {
+}
+
+.guestbook-form .name-input {
+    width: 100%;
+}
+.guestbook-form .message-input {
+    width: 100%;
+    height: 200px;
+
+}
+
+.guestbook-form .submit-button {
+    width: 200px;
+
 }

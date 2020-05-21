@@ -15,26 +15,26 @@ const SecondPage = () => (
         method="post"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
+        className="guestbook-form"
       >
         <input type="hidden" name="form-name" value="contact" />
 
-        <p>
+        <p className="name">
           <label>
-            Your Name: <input type="text" name="name" />
+            <p className="label">Your Name</p>
+            <input type="text" className="name-input" name="name" />
           </label>
         </p>
-        <p>
+        <p className="message">
           <label>
-            Your Email: <input type="email" name="email" />
+            <p className="label">Your Message</p>
+            <textarea className="message-input" name="message" />
           </label>
         </p>
-        <p>
-          <label>
-            Message: <textarea name="message" />
-          </label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
+        <p className="submit">
+          <button className="submit-button" type="submit">
+            Send
+          </button>
         </p>
       </form>
       <Comments />
