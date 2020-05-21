@@ -707,6 +707,7 @@ img {
     padding-top: 1em;
     font-size: 1.5em;
     line-height: 1.2em;
+    white-space: pre-wrap;
 }
 
 .guestbook-form div {
