@@ -12,7 +12,8 @@ const Header = ({ siteTitle }) => (
     <div>
       <h1 className="header">
         David & Debra Trammel
-        <br /> June 11, 1970
+        <br /> Celebrating 50 Years
+        <br /> June 20, 1970
       </h1>
     </div>
   </header>
