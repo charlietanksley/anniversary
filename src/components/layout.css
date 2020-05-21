@@ -709,33 +709,23 @@ img {
     line-height: 1.2em;
 }
 
-.message-body {
-}
-
-.message-sender {
-}
-
-.guestbook-form {
-
+.guestbook-form div {
+    padding-bottom: 1em;
 }
 
 .guestbook-form .label {
     font-size: 2em;
 }
-
-.guestbook-form .name {
-}
-
 .guestbook-form .name-input {
     width: 100%;
 }
 .guestbook-form .message-input {
     width: 100%;
     height: 200px;
-
 }
 
 .guestbook-form .submit-button {
     width: 200px;
-
+    font-size: 2em;
+    padding: .5em;
 }

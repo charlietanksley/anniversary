@@ -18,24 +18,23 @@ const SecondPage = () => (
         className="guestbook-form"
       >
         <input type="hidden" name="form-name" value="contact" />
-
-        <p className="name">
+        <div>
           <label>
             <p className="label">Your Name</p>
             <input type="text" className="name-input" name="name" />
           </label>
-        </p>
-        <p className="message">
+        </div>
+        <div>
           <label>
             <p className="label">Your Message</p>
             <textarea className="message-input" name="message" />
           </label>
-        </p>
-        <p className="submit">
+        </div>
+        <div>
           <button className="submit-button" type="submit">
             Send
           </button>
-        </p>
+        </div>
       </form>
       <Comments />
     </div>
