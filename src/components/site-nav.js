@@ -10,11 +10,15 @@ export default () => (
       </Link>
       <Link to="/guestbook">
         {" "}
-        <li>Guestbook</li>
+        <li>Read Guestbook</li>
       </Link>
       <Link to="/photo-album">
         {" "}
         <li>Photo Album</li>
+      </Link>
+      <Link to="/guestbook#add-message">
+        {" "}
+        <li>Sign Guestbook</li>
       </Link>
     </ul>
   </nav>
