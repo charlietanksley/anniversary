@@ -627,6 +627,7 @@ pre tt:after {
     --silk: #DCD0C0;
     --paper: #F4F4F4;
     --charcol: #373737;
+    --display: 'Great Vibes', cursive;
 }
 
 body {
@@ -642,7 +643,7 @@ img {
 }
 
 .header {
-    font-family: 'Great Vibes', cursive;
+    font-family: var(--display);
     font-size: 4em;
     text-align: center;
 }
@@ -730,4 +731,16 @@ img {
     width: 200px;
     font-size: 2em;
     padding: .5em;
+}
+
+.photo-section {
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.photo-section .decade {
+    border-top: 1px solid var(--pale-gold);
+    border-bottom: 1px solid var(--pale-gold);
+    font-family: var(--display);
+    font-size: 3em;
 }
