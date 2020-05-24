@@ -1,9 +1,9 @@
-import React from "react"
+import Decade from "../components/decade"
 import Image from "../components/image"
+import React from "react"
 
 export default () => (
-  <div className="photo-section">
-    <h2 className="decade">1970s and 1980s</h2>
+  <Decade headerName="1970s and 1980s">
     <div className="two-column">
       <div className="left-2-column">
         <Image id="wedding" />
@@ -12,5 +12,5 @@ export default () => (
         <Image id="june1970" />
       </div>
     </div>
-  </div>
+  </Decade>
 )
