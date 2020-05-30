@@ -297,6 +297,174 @@ const Image = props => {
         }
       }
 
+      alaska10: file(relativePath: { eq: "2010/10-alaska.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      bar10: file(relativePath: { eq: "2010/10-bar.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      beachCrew10: file(relativePath: { eq: "2010/10-beach-crew.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      beachSellfie10: file(relativePath: { eq: "2010/10-beach-sellfie.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      beaufort10: file(relativePath: { eq: "2010/10-beaufort.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      christmasDd10: file(relativePath: { eq: "2010/10-christmas-dd.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      christmasSid10: file(relativePath: { eq: "2010/10-christmas-sid.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      classOf7010: file(relativePath: { eq: "2010/10-class-of-70.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      daisy10: file(relativePath: { eq: "2010/10-daisy.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      disney10: file(relativePath: { eq: "2010/10-disney.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      easter10: file(relativePath: { eq: "2010/10-easter.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      fourtyfifth10: file(relativePath: { eq: "2010/10-fourtyfifth.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      fullLength10: file(relativePath: { eq: "2010/10-full-length.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      funeral10: file(relativePath: { eq: "2010/10-funeral.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      gatlinbergTyler10: file(
+        relativePath: { eq: "2010/10-gatlinberg-tyler.JPG" }
+      ) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      grandkids10: file(relativePath: { eq: "2010/10-grandkids.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      pacific10: file(relativePath: { eq: "2010/10-pacific.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      portraintSmiles10: file(
+        relativePath: { eq: "2010/10-portraint-smiles.JPG" }
+      ) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      portrait10: file(relativePath: { eq: "2010/10-portrait.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      quilt10: file(relativePath: { eq: "2010/10-quilt.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      selfie10: file(relativePath: { eq: "2010/10-selfie.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      tanksleyHouse10: file(
+        relativePath: { eq: "2010/10-tanksley-house.JPG" }
+      ) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      wholeCrew10: file(relativePath: { eq: "2010/10-whole-crew.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
       alaska: file(relativePath: { eq: "alaska.jpg" }) {
         childImageSharp {
           fluid {
