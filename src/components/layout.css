@@ -748,3 +748,7 @@ img {
 .image-section {
     padding-bottom: 1em;
 }
+
+#add-message {
+    font-size: 2em;
+}

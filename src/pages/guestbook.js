@@ -11,7 +11,7 @@ const SecondPage = () => (
       <Comments />
 
       <div className="add-message">
-        <a name="add-message" />
+        <h2 id="add-message">Add your message to the guestbook</h2>
         <form
           name="contact"
           method="post"
