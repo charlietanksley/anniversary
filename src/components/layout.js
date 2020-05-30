@@ -21,6 +21,11 @@ const Layout = ({ children }) => {
           href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap"
           rel="stylesheet"
         />
+        <script>
+          var clicky_site_ids = clicky_site_ids || [];
+          clicky_site_ids.push(101258426);
+        </script>
+        <script async src="//static.getclicky.com/js" />
       </Helmet>
       <div
         style={{
