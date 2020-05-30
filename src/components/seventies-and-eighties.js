@@ -5,8 +5,8 @@ import React from "react"
 
 export default () => (
   <Decade headerName="1970s and 1980s">
-    <TwoColumn right="pinning70" left="ringWeekendOffice70" />
     <TwoColumn right="ringWeekend70" left="juneInFullDress70" />
+    <TwoColumn right="pinning70" left="ringWeekendOffice70" />
     <TwoColumn right="yellowDress70" left="whiteTie70" />
     <TwoColumn right="wedding70" left="saberArch70" />
     <TwoColumn right="withIngrums70" left="withTrammels70" />
