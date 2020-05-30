@@ -464,42 +464,6 @@ const Image = props => {
           }
         }
       }
-
-      alaska: file(relativePath: { eq: "alaska.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      june1970: file(relativePath: { eq: "june-1970.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      reunion70: file(relativePath: { eq: "reunion-class-of-70.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      wedding: file(relativePath: { eq: "wedding.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      withJoy90s: file(relativePath: { eq: "with-joy-90s.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
     }
   `)
 
