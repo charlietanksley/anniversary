@@ -1,7 +1,6 @@
 import Decade from "../components/decade"
 import FullWidth from "../components/full-width"
 import TwoColumn from "../components/two-column"
-import Image from "../components/image"
 import React from "react"
 
 export default () => (
