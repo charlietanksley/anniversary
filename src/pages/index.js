@@ -1,10 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import SiteNav from "../components/site-nav"
 
 /*
 https://www.canva.com/learn/website-color-schemes/
@@ -19,7 +17,7 @@ const IndexPage = () => (
 
     <div className="main">
       <div>
-        <Image id="alaska" />
+        <Image id="cover" />
       </div>
     </div>
   </Layout>

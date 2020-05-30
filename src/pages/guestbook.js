@@ -1,10 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Comments from "../components/comments"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import SiteNav from "../components/site-nav"
 
 const SecondPage = () => (
   <Layout>
