@@ -210,6 +210,92 @@ const Image = props => {
           }
         }
       }
+      cedarHills90: file(relativePath: { eq: "1990/90-cedar-hills.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      airport00: file(relativePath: { eq: "2000/00-airport.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      christmas00: file(relativePath: { eq: "2000/00-christmas.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      disney00: file(relativePath: { eq: "2000/00-disney.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      graveyard00: file(relativePath: { eq: "2000/00-graveyard.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      halloween00: file(relativePath: { eq: "2000/00-halloween.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      marathon00: file(relativePath: { eq: "2000/00-marathon.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      museum00: file(relativePath: { eq: "2000/00-museum.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      philly00: file(relativePath: { eq: "2000/00-philly.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      tree00: file(relativePath: { eq: "2000/00-tree.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      wedding00: file(relativePath: { eq: "2000/00-wedding.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      youngAngayla00: file(relativePath: { eq: "2000/00-young-angayla.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
 
       alaska: file(relativePath: { eq: "alaska.jpg" }) {
         childImageSharp {
