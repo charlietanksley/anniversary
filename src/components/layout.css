@@ -744,3 +744,7 @@ img {
     font-family: var(--display);
     font-size: 3em;
 }
+
+.image-section {
+    padding-bottom: 1em;
+}
