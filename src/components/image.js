@@ -218,6 +218,14 @@ const Image = props => {
         }
       }
 
+      withJoy90: file(relativePath: { eq: "1990/90-with-joy.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
       airport00: file(relativePath: { eq: "2000/00-airport.JPG" }) {
         childImageSharp {
           fluid {
