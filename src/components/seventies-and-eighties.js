@@ -15,6 +15,12 @@ export default () => (
     <FullWidth img="dogAndBaby70" />
     <FullWidth img="babyJoy70" />
     <FullWidth img="familyByFireplace70" />
-    <TwoColumn right="vampires70" left="vampires70" />
+    <TwoColumn right="vampires70" left="atChurch80" />
+
+    <TwoColumn right="davidPhd80" left="debraHat80" />
+    <TwoColumn right="frontOfHouse80" left="fireplace80" />
+    <FullWidth img="smyrna80" />
+    <TwoColumn right="sofa80" left="whiteHat80" />
+    <FullWidth img="yellowSweater80" />
   </Decade>
 )

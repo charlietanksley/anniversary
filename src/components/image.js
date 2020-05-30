@@ -145,6 +145,72 @@ const Image = props => {
         }
       }
 
+      atChurch80: file(relativePath: { eq: "1980/80-at-church.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      davidPhd80: file(relativePath: { eq: "1980/80-david-phd.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      debraHat80: file(relativePath: { eq: "1980/80-debra-hat.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      fireplace80: file(relativePath: { eq: "1980/80-fireplace.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      frontOfHouse80: file(relativePath: { eq: "1980/80-front-of-house.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      smyrna80: file(relativePath: { eq: "1980/80-smyrna.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      sofa80: file(relativePath: { eq: "1980/80-sofa.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      whiteHat80: file(relativePath: { eq: "1980/80-white-hat.JPG" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      yellowSweater80: file(
+        relativePath: { eq: "1980/80-yellow-sweater.JPG" }
+      ) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
       alaska: file(relativePath: { eq: "alaska.jpg" }) {
         childImageSharp {
           fluid {
