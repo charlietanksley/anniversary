@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `The Main Title`,
-    description: `All my description here`,
+    title: `Debra and David Trammel 50th Anniversary`,
+    description: `Celebrating 50 years of marriage.`,
     author: `Charlie Tanksley`,
   },
   plugins: [
