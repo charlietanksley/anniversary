@@ -18,6 +18,7 @@ const SecondPage = () => (
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           className="guestbook-form"
+          action="/success"
         >
           <input type="hidden" name="form-name" value="contact" />
           <div>
