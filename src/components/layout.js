@@ -26,6 +26,25 @@ const Layout = ({ children }) => {
           clicky_site_ids.push(101258426);
         </script>
         <script async src="//static.getclicky.com/js" />
+
+        <meta
+          property="og:site_name"
+          content="Debra and David Trammel Anniversary"
+        />
+
+        <meta
+          property="og:title"
+          content="Debra and David Trammel's 50 Year Anniversary."
+        />
+        <meta
+          property="og:url"
+          content="https://www.debraanddavidtrammel.com/"
+        />
+
+        <meta
+          property="og:image"
+          content="https://www.debraanddavidtrammel.com/static/28b153d35cfe55f04d520a8ca6e78bf1/b8f40/10-portraint-smiles.jpg"
+        />
       </Helmet>
       <div
         style={{
