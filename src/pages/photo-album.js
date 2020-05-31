@@ -6,9 +6,9 @@ import SEO from "../components/seo"
 import SeventiesAndEighties from "../components/seventies-and-eighties"
 import Teens from "../components/teens"
 
-const SecondPage = () => (
+const PhotoAlbum = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Photo Album" />
     <div className="main">
       <SeventiesAndEighties />
       <NintiesAndThousands />
@@ -17,4 +17,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default PhotoAlbum
