@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
   >
     <div>
       <h1 className="header">
-        David & Debra Trammel
+        Debra & David Trammel
         <br /> Celebrating 50 Years
         <br /> June 20, 1970
       </h1>
