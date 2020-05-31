@@ -747,6 +747,7 @@ img {
         background-color: var(--silk);
         border: 1px solid var(--pale-gold);
         margin-bottom: 5px;
+        color: var(--charcol);
     }
 }
 
@@ -781,6 +782,7 @@ img {
         padding-bottom: 0;
         background-color: var(--silk);
         border: 1px solid var(--pale-gold);
+        color: var(--charcol);
     }
     .site-nav a:hover {
         background: var(--pale-gold);
