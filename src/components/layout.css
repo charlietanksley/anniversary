@@ -665,41 +665,6 @@ img {
     grid-row: "1/1";
 }
 
-.site-nav {
-    list-style: none;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.site-nav li {
-    display: inline-block;
-    padding: 1em;
-    margin-bottom: 0;
-    font-size: 1.5em;
-    border: 1px solid var(--pale-gold);
-}
-
-// For screen readers
-.site-nav li::before {
-  content: "\200B";
-}
-
-.site-nav a {
-    display: inline-block;
-    text-decoration: none;
-    margin-right: 5px;
-    margin-left: 0;
-    padding-left: 0;
-    padding-bottom: 0;
-    background-color: var(--silk);
-}
-.site-nav a:hover {
-    background: var(--pale-gold);
-}
-
 .message-display {
     /* background-color: var(--paper); */
     border: 1px solid var(--charcol);
@@ -751,4 +716,73 @@ img {
 
 #add-message {
     font-size: 2em;
+}
+
+
+/* Site Navigation */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .header {
+        font-size: 2em;
+    }
+    .site-nav {
+        list-style: none;
+    }
+    .site-nav li {
+        display: block;
+        padding: 5px;
+        margin-bottom: 0;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    // For screen readers
+    .site-nav li::before {
+        content: "\200B";
+    }
+
+    .site-nav a {
+        display: block;
+        text-decoration: none;
+        background-color: var(--silk);
+        border: 1px solid var(--pale-gold);
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 481px) {
+    .site-nav {
+        list-style: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .site-nav li {
+        display: inline-block;
+        padding: 1em;
+        margin-bottom: 0;
+        font-size: 1em;
+    }
+
+    // For screen readers
+    .site-nav li::before {
+        content: "\200B";
+    }
+
+    .site-nav a {
+        display: inline-block;
+        text-decoration: none;
+        margin-right: 5px;
+        margin-left: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+        background-color: var(--silk);
+        border: 1px solid var(--pale-gold);
+    }
+    .site-nav a:hover {
+        background: var(--pale-gold);
+    }
 }
